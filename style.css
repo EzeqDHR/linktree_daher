@@ -1,0 +1,93 @@
+body{
+    background-image:url(img/fondo.avif) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+}
+
+.perfil{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.miImg{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 90px;
+    transition: transform 0.3s ease; 
+    border: 4px solid rgb(241, 80, 169);
+    margin-top: 80px;
+}
+h1{
+  font-size: 28px;
+  color: white;
+}
+h3{
+  font-size: 18px;
+  margin-top:2px;
+  color: white;
+}
+.miImg:hover {
+    transform: scale(1.1)
+}
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    gap: 30px; 
+    margin-top: 20px;
+  }
+  
+  .redes a {
+    color: white; 
+    font-size: 50px;
+    transition: transform 0.3s ease;
+  }
+  
+  .redes a:hover {
+    transform: scale(1.2);
+    color: rgb(241, 80, 169); 
+  }
+
+  a{
+    color: black;
+    text-decoration: none;
+  }
+  .btns button{
+    width: 500px;
+    height: 50px;
+    display: block;
+    margin: 20px;
+    border-radius: 50px;
+    font-size: 20px;  
+     transition: transform 0.3s ease;
+}
+
+
+
+button:hover {
+    background-color: rgb(241, 80, 169);
+    transform: scale(1.05);
+
+
+  }
+
+.botones{
+    position: absolute;
+   left: 50%; 
+    transform: translateX(-50%);
+    padding: 30px;
+}

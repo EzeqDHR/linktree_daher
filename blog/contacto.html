@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BLOG CSGO</title>
+    <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+ 
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="img/logoPrincipal.jpg" alt="Logo de csgo2">
+            <a href="index.html">BLOG-CSGO </a>
+        </div>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú de navegación">
+            <i class="fas fa-bars"></i>
+        </button>
+        <nav class="nav" id="nav">
+           <a href="../index.html">Linktree</a>
+            <a href="index.html">Home</a>
+            <a href="sobre_mi.html">Sobre mi</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main class="contacto-container">
+        <h2>Contacto</h2>
+        <form class="contacto-form" onsubmit="enviarFormulario(event)">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="tu@email.com" required />
+
+            <label for="text">Nombre</label>
+            <input type="text" id="text" name="text" placeholder="Escribe tu nombre..." required />
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje acá..." required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+    </main>
+
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-icons">
+                <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p>© 2025 Ezequiel Daher. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

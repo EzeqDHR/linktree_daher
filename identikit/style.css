@@ -1,0 +1,465 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+     color: black;
+    
+     
+}
+
+footer{
+    background-color: black;
+    
+
+}
+footer p{
+    text-align: center  ;
+    color: white;
+}
+h1 {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    margin-top: 60px;
+  }
+  h3 {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 50px;
+    
+  }
+
+p{
+    color: black; 
+    padding: 20px;
+    margin-top: 0;
+    font-size: 18px;
+    text-align: justify;
+
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;     
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+
+
+/*--------Nav--------*/
+
+.fotoperfil{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: left;
+}
+.tablaNav{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.tituloNav{
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.links{
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*--------- Tablas sobre mi--------- */
+.tablaMe{
+    width: 50%;
+}
+ 
+#fotoMia{
+    border-radius: 10%;
+    width: 200px;
+    margin: 10px;
+}
+
+
+#tdTitulo{
+    text-align: center;  
+}
+#trImg{
+    text-align: center;
+    
+}
+.img{
+    margin-top: 50px;
+}
+.masInfo{
+    
+    text-decoration: none;
+    background-color: black; 
+    color: white; 
+    padding: 10px 20px; 
+    border-radius: 10px; 
+    margin-bottom: 20px;
+     }
+#tdMasInfo{
+    padding-top: 80px;
+    text-align: center;
+   
+}
+/*-------Tablas sitios web fav---------*/
+
+.tablaFav{
+    width: 70%;
+}
+.imgFav{
+    margin-top: 50px;
+  
+}
+#tdImg{
+    text-align: right;
+}
+/*---------Onefootball---------*/
+.bodyOneFot{
+    background-image: url(img/onefotballFondo.png);
+    background-size: cover;         
+    background-repeat: no-repeat;   
+    background-position: center;    
+    height: 100%;
+    margin: 0;
+     }
+.aFoot{
+    color: black;
+}
+
+.tablaOneFot{
+    background-color: rgba(223, 203, 25, 0.756);
+    color: black;
+    width: 100%;
+}
+.tablaOneFot2{
+    
+    background-color: rgba(255, 255, 255, 0.496);
+    border-collapse: collapse;
+    width: 70%;
+    margin: 20px auto;
+    color: #000;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.linksOneFot{
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.h1Onefot{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 60px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(246, 224, 28);
+}
+.pOneFot{
+    color: black; 
+    margin-top: 0;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+.h3OneFot{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin-top: 70px;
+    margin-left: 40px;
+    
+    
+}
+/*----------w3Schools-------------*/
+.bodyW3{
+    background-image: url(img/w3schoolsFondo.jpg);
+    background-size: cover;         
+    background-repeat: no-repeat;   
+    background-position: center;    
+    height: 100%;
+    margin: 0;
+     }
+.tablaW3{
+    background-color: rgba(39, 183, 111, 0.736);
+    color: black;
+    width: 100%;
+}
+.h1W3{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 60px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(39, 183, 111);
+ }
+
+ /*-------Bootstrap----------*/
+ .bodyBoot{
+    background-image: url(img/bootstrapFondo.avif);
+    background-size: cover;         
+    background-repeat: no-repeat;   
+    background-position: center;    
+    height: 100%;
+    margin: 0;
+     }
+.tablaBoot{
+    background-color: rgba(181, 9, 224, 0.736);
+    color: black;
+    width: 100%;
+}
+.h1Boot{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 60px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:  rgba(130, 15, 158, 0.736);
+ }
+
+ /*-----------Juego-----------*/
+.bodyJuego{
+    background-image: url(img/fondoJuego.png);
+    background-size: cover;         
+    background-repeat: no-repeat;   
+    background-position: center;    
+    height: 100%;
+    margin: 0;
+     }
+
+.h1Juego{
+        text-align: center;
+        font-size: 70px;
+        margin-top: 60px;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(9, 4, 73);
+     }
+    
+.h3Juego{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin-top: 0px;
+    color: rgb(9, 4, 73);
+    }
+.pregunta{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin-top: 80px;
+    color: rgb(9, 4, 73);
+}
+.opciones{
+    text-decoration: none;
+    background-color: rgb(9, 4, 73); 
+    color: white; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    border-radius: 10px; 
+}
+.trJuego{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.trJuego td{
+    padding: 20px;
+}
+/*---------Juego-ERROR--------*/
+.bodyError{
+    background-image: url(img/error.jpg);   
+    height: 100%;
+    margin: 0;
+     }
+.h1Error{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 60px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 2, 2);
+}
+.trError{
+    text-align: center;
+    align-items: center;
+}
+.trError td{
+    padding: 30px;
+}
+
+.aError{
+  
+    text-decoration: none;
+    background-color: red; 
+    color: black; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    border-radius: 10px; 
+    font-size: 30px;
+}
+/*-------------Ganaste---------*/
+.bodyGanar{
+    background-image: url(img/ganador.jpg);   
+    background-size: cover;         
+   
+    background-position: center;    
+    height: 100%;
+    margin: 0;
+     }
+     .h1Ganar{
+        text-align: center;
+        font-size: 70px;
+        margin-top: 60px;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(166, 158, 4);
+    }
+    .trGanar{
+        text-align: center;
+        align-items: center;
+    }
+    .trGanar td{
+        padding: 30px;
+    }
+    
+    .aGanar{
+      
+        text-decoration: none;
+        background-color: rgb(247, 211, 6); 
+        color: black; 
+        padding: 10px 20px; 
+        text-decoration: none; 
+        border-radius: 10px; 
+        font-size: 30px;
+    }
+
+/*----------Videos-----------*/
+.btnVideoOne{
+  display: inline-block; 
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  margin: 10px 0; 
+  border-radius: 10px;
+  text-decoration: none;
+}
+.btnVideoOne:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.btnVideoW3{
+    display: inline-block; 
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  margin: 10px 0; 
+  border-radius: 10px;
+  text-decoration: none;
+}
+.btnVideoW3:hover{
+    background-color: rgb(39, 183, 111);
+    color: white;
+}
+
+.btnVideoBot{
+    display: inline-block; 
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  margin: 10px 0; 
+  border-radius: 10px;
+  text-decoration: none;
+}
+.btnVideoBot:hover{
+    background-color:rgba(130, 15, 158, 0.736) ;
+    color: white;
+}
+li {
+    margin-bottom: 40px; 
+  }
+.pVid{
+                                                                                                           
+    font-size: 45px;
+    color: white; 
+    padding: 20px;
+    margin-top: 0;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+
+}
+.h3Vid{
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 40px;
+    color:white ;
+    
+  }
+
+
+  
+  aside{
+    
+    background-color: rgba(64, 63, 63, 0.799);
+    display: inline-block;
+    width: 30%;
+    height: 800px;
+    vertical-align: top;
+    margin: 25px;
+    border-radius: 60px;
+    
+}
+
+
+div{
+    background-color: white;
+    display: inline-block;
+    width: 65%;
+    height: 800px;
+    text-align: center;
+    justify-content: center;
+   
+  }
+  
+  iframe {
+    margin-top: 10px; 
+    border-radius: 15px; 
+  }
